@@ -38,5 +38,7 @@ else
     xinput_show="👆"
 fi
 
+cpu_used=$(cat ~/.cache/mucpu_used)
+cpu_show="🚀${cpu_used}%"
 # echo "${mem_show} ${light_show} ${batt_show} ${volume_show} $( date +"%R" ) ${xinput_show}"
-xsetroot -name "${mem_show} ${light_show} ${batt_show} ${volume_show} 🕔$( date +"%R" ) ${xinput_show}"
+xsetroot -name "${cpu_show} ${mem_show} ${light_show} ${batt_show} ${volume_show} 🕔$( date +"%R" ) ${xinput_show}"
