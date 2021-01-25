@@ -1,0 +1,19 @@
+These scripts need to be used with my DWM(https://github.com/MurphyWZhu/muscript)
+------------------
+
+Install these scripts
+------------------
+make install
+------------------
+
+The packages that may be required are listed below
+------------------
+acpi	: used to display the battery level
+bc	: calculation
+light	: used to display and adjust brightness
+xss-lock: For timing lock screen
+pamixer	: used to display volume
+maim	: For screenshots
+------------------
+copy	: acpi bc light xss-lock pamixer maim
+
