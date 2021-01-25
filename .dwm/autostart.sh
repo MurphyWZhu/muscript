@@ -2,7 +2,7 @@
 
 xinput disable "ETPS/2 Elantech Touchpad"
 picom -b --backend glx
-feh --randomize --bg-fill ~/Pictures/wallpapers/
+~/.config/muscript/muwallpaper.sh &
 xss-lock ~/.config/muscript/muxss-lock.sh &
 while true; do
         ~/.config/muscript/mudwmbar.sh
